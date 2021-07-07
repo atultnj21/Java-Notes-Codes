@@ -1,0 +1,22 @@
+   Hashing is technique to convert a range of key values into
+   range of indices
+
+   ex: take an array of size 10
+   add numbers into array 72,39,11,18
+   default insertion will make searching difficult
+   hashing helps us here, hashing uses a hash function
+   let's say f(x) = x%10
+   x   f(x)/indices
+   72  2
+   39  9
+   11  1
+   18  8
+   21  1 -> hash collision
+
+   one solution to this hash collision problem is open addressing
+   i.e. leave some empty spaces in your array.
+   another solution is chaining
+   suppose we have same indices for two elements we will
+   make that point a linked list containing both the elements
+
+   the arrays here we use are called hash tables

@@ -1,0 +1,20 @@
+java collections provide classes and interfaces for us
+to be able to write code quickly and efficiently
+we need collections for efficient storage and better manipulation
+of data in java.
+Collection classes are available in java.util.collection
+collection classes provides static methods for sorting ,
+searching etc
+some of the commonly used collections are :
+ArrayList -> For variable size collection
+set -> for distinct collection
+stack -> A LIFO DS
+hashMap -> For storing Key-value pairs.
+
+           Iterable
+           collection
+List       Queue       set
+ArrayList  PQ          HashSet
+LinkedList
+
+The interface Iterable is on the top of the hierarchy

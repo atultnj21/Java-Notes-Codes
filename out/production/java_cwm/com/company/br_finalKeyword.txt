@@ -1,0 +1,22 @@
+/*
+The final keyword in java is used to restrict the user.
+The java final keyword can be used in many context.
+Final can be:
+
+variable
+method
+class
+
+Java final variable
+If you make any variable as final,
+you cannot change the value of final
+variable(It will be constant).
+
+Java final method
+If you make any method as final, you cannot override it.
+
+Java final class
+When we declare a class as final we cannot extend it
+anymore
+an example of this in java is the String class
+*/

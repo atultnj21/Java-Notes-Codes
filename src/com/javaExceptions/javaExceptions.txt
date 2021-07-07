@@ -1,0 +1,40 @@
+An exception is an object that contains information about an error
+
+In java we have three kinds of exceptions
+
+Checked
+Java compiler enforces us to handle these errors that is why
+they are called checked exceptions because they get checked at
+compile time
+ex:FileReader  :  FileNotFoundException
+
+
+Unchecked/ runtime exception
+these exceptions are not checked by the compilers,they occur
+due to programming errors
+ex:NullPointerException
+ex:ArithmeticException -> if you try to divide a value by 0
+ex:illegalArgumentException
+ex:indexOutOfBoundsException
+
+Error
+indicates error external to our application
+ex:stackoverflow
+ex:outOfMemory
+
+Exceptions Hierarchy
+
+         Throwable class
+         /             \
+   Exception class     Error class
+        /
+   RuntimeException class
+
+Throwable class defines common characteristics for all
+exceptions and errors
+
+Error class represents errors external to our application
+
+exception class is parent for all checked and unchecked exceptions
+
+RuntimeException class represents the runtime or unchecked exceptions

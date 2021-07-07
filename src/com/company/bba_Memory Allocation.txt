@@ -1,0 +1,42 @@
+Memory Allocation
+
+Java manages two different areas of memory
+One is called heap , this is where it stores the
+objects
+The other Area is called the Stack and this is where
+it stores short lived variables like all the primitives
+as well as the variables which stores references to the
+objects on the heap.
+
+var textBox1 = new TextBox();
+
+When Java Runtime Environment(JRE) executes this first
+it will evaluate the right hand side of the assignment
+operator so, it will create a new textBox object and it
+will store it on the heap now lets say the address of
+this object on the heap is 100 then JRE is going to execute
+the statement on the left hand side of the assignment operator
+here it will allocate some memory on the stack and in this
+memory location it will store the address of the textBox object
+so this variable we have here is referencing object on the heap
+that's why we refer to these variables as reference types
+because these  variables don't store the actual values .
+
+var textBox2 =textBox1;
+
+in this example both these variables are referencing the same textBox
+object on the heap , there is only a single textBox object on the
+heap and there are two variables on the stack referencing it
+if i modify this object using one of these variables
+the change will be visible on the other variable
+
+textBox2.setText("hello world")
+System.out.println(textBox1.text)//hello world
+
+In java unlike c++ we don't have to worry about deallocating memory
+java will automatically take care of that, when we exit a method
+JRE will immediately all the variables on stack
+there is another process in the background to watch the objects on
+the heap if our object become unused for a certain period of time
+that process is automatically going to delete the object from the heap
+this is called garbage collection

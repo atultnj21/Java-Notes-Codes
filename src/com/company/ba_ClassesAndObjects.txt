@@ -1,0 +1,34 @@
+/*
+classes and objects
+-------------------
+
+A CLASS is a blueprint or template for creating objects.
+
+for example we can have class called car
+and in this class we define everything we need to
+know about a car
+
+car(attributes/fields)
+started
+currentSpeed
+currentGear
+car(behaviour/Methods)
+start()
+stop()
+brake()
+changeGear()
+
+when we call these methods the state of car changes
+for ex:- when we call the changeGear method value of
+the currentGear field changes
+so this car class is a template or blue print
+for creating objects
+
+An OBJECT is an instance of a class.
+
+based on this template we can create many instances
+like car1,car2,car3 these objects will have the same
+fields and methods,but they are independent of each other
+each car object will get a separate space in the memory
+and in a separate state.data in each car object can be different
+*/

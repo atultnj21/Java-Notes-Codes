@@ -1,0 +1,48 @@
+/*
+       Why use Java interface?
+       There are mainly three reasons to use interface.
+       They are given below.
+
+       It is used to achieve abstraction.
+       By interface, we can support the functionality of multiple inheritance.
+       It can be used to achieve loose coupling.
+
+       Coupling refers to the usage of an object by another object.
+       It can also be termed as collaboration. This dependency of
+       one object on another object to get some task done can be
+       classified into the following two types −
+
+      Tight coupling - When an object creates the object to be used,
+      then it is a tight coupling situation. As the main object creates
+      the object itself, this object can not be changed from outside
+      world easily marked it as tightly coupled objects.
+
+      Loose coupling - When an object gets the object to be used from
+      the outside, then it is a loose coupling situation. As the main
+      object is merely using the object, this object can be changed
+      from the outside world easily marked it as loosely coupled
+      objects.
+
+   We use interfaces to build loosely-coupled,
+   extensible ,testable applications
+
+   An interface is type similar to class but it
+   only includes method declaration no implementation
+   it has no code only defines the capabilities that
+   a class should have.
+
+   Interfaces
+   What should be done
+
+   Classes
+   How it should be done
+
+   Interface is a group of related methods with empty bodies
+   we cannot make object of interface but we can make reference
+   of interface
+   we can implement multiple interfaces at a time
+   ------------------------------------------------------------
+   interfaces are to build loosely-coupled,extensible,testable
+   applications
+   abstract classes are to share code
+*/

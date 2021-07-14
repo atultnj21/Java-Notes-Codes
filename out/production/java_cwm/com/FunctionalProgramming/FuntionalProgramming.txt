@@ -1,0 +1,8 @@
+Functional Interface
+--------------------
+An interface with a single abstract method.
+
+Functional programming is a programming paradigm
+in which we try to bind everything in pure mathematical
+functions style. It is a declarative type of programming
+style.
